@@ -1,0 +1,33 @@
+/* General CSS */
+
+.button:hover {
+    background:#c5fff5;
+    transition: 0.3s ease-in-out;
+}
+.inherit-style{
+    color: inherit;
+    text-decoration: none;
+    outline: none;
+    cursor: inherit;
+}
+.center-children{
+    text-align: center;
+}
+.slight-smooth-zoom{
+    transition: transform 0.3s ease-in-out;
+}
+.slight-smooth-zoom:hover{
+    transform: scale(1.04);
+}
+.medium-smooth-zoom{
+    transition: transform 0.3s ease-in-out;
+}
+.medium-smooth-zoom:hover{
+    transform: scale(1.2);
+}
+.strong-smooth-zoom{
+    transition: transform 0.3s ease-in-out;
+}
+.strong-smooth-zoom:hover{
+    transform: scale(1.2);
+}

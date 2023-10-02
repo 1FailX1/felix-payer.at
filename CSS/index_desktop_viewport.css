@@ -1,0 +1,104 @@
+  /* CSS for screens larger than 1024px (desktop) */
+  @media (min-width: 1550px) {
+      * {
+          font-family: 'Montserrat', sans-serif;
+      }
+
+      body {
+          padding-left: 20%;
+          padding-right: 20%;
+      }
+
+      h1 {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 40px;
+      }
+
+      .font-resizable-70px {
+          font-size: 70px;
+          margin: 0;
+          padding-bottom: 0;
+      }
+
+      p {
+          font-family: 'Montserrat', sans-serif;
+          font-size: 20px;
+      }
+
+      .flex-introduction {
+          margin-top: 100px;
+          display: flex;
+          justify-content: space-evenly;
+          margin-bottom: 15%;
+      }
+
+      .flex-introduction-item {
+          max-width: 50%;
+          background-color: #f8f8f8;
+          border-radius: 15px 50px;
+          padding: 10px;
+      }
+
+      .flex-introduction-image {
+          max-width: 100%;
+          margin: 0 auto;
+      }
+
+      .flex-reviews {
+          display: flex;
+          justify-content: space-between;
+          margin-bottom: 100px;
+      }
+
+      .flex-reviews-left {
+          display: flex;
+          max-width: 60%;
+          justify-content: space-between;
+      }
+
+      .flex-reviews-left-item {
+          flex-direction: column;
+      }
+
+      .flex-reviews-fiverr-image {
+          max-width: 35%;
+          margin: 0 auto;
+      }
+
+      .flex-reviews-youtube-image {
+          max-width: 35%;
+          margin: 0 auto;
+      }
+
+      .flex-reviews-right {
+          width: 40%;
+      }
+
+      .flex-contact {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+
+      .flex-contact-left {
+          width: 50%;
+      }
+
+      .flex-contact-right {
+          width: 50%;
+      }
+
+      .flex-contact-form-emailname {
+          display: flex;
+          flex-direction: row;
+          justify-content: space-between;
+      }
+
+      .button {
+          padding: 15px;
+          background: #99C5BE;
+          border-radius: 8px;
+          color: #111827;
+          border: 2px solid #99C5BE
+      }
+  }
