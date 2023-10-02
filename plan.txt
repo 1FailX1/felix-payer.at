@@ -1,0 +1,18 @@
+Oben - Header mit navigation zu punkten auf der seite
+
+Flexbox mit rechts und links:
+links:
+Hi, I'm Felix Payer
+Developer & Web Designer
+Drunter bissi Text über mich
+rechts: Bild von mir
+
+Flexbox mit Drei Teilen:
+links: mein logo (nur das X)
+mitte: 4.9 Sterne auf Fiverr
+rechts: paar reviews, es steht immer eines da und wechselt nach ein paar sekunden zum nächsten
+
+Flexbox mit drei Teilen zu meinen Services: Development (Web, Software), Videography, Photography
+Darunter sind dann jeweils kurze Texte zur Beschreibung von dem was ich kann
+
+Contact form (von der einen ai website fladern
