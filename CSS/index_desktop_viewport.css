@@ -1,4 +1,4 @@
-  /* CSS for screens larger than 1024px (desktop) */
+  /* CSS for screens larger than 1550px (desktop) */
   @media (min-width: 1550px) {
       * {
           font-family: 'Montserrat', sans-serif;
@@ -40,8 +40,11 @@
       }
 
       .flex-introduction-image {
-          max-width: 100%;
           margin: 0 auto;
+          object-fit: cover; 
+          max-width: 300px; 
+          text-align: left;
+          align-self: center;
       }
 
       .flex-reviews {
@@ -100,5 +103,20 @@
           border-radius: 8px;
           color: #111827;
           border: 2px solid #99C5BE
+      }
+
+      /*Fade in transitions*/
+
+      .hidden {
+        opacity: 0;
+        filter: blur(5px);
+        transform: translateX(-5%);
+        transition: all 1s;
+      }
+
+      .show {
+        opacity: 1;
+        filter:blur(0);
+        transform: translateX(0);
       }
   }
