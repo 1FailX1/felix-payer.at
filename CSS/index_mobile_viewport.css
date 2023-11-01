@@ -1,5 +1,5 @@
-/* CSS for screens smaller than 600px (typical mobile devices) */
-@media (max-width: 600px) {
+/* CSS for screens smaller than 700px (typical mobile devices) */
+@media (max-width: 700px) {
 
     /* Mobile-specific CSS rules here */
     * {

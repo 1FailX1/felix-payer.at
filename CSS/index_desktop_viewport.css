@@ -1,5 +1,5 @@
-  /* CSS for screens larger than 1550px (desktop) */
-  @media (min-width: 1550px) {
+  /* CSS for screens larger than 1200px (desktop) */
+  @media (min-width: 1200px) {
       * {
           font-family: 'Montserrat', sans-serif;
       }
@@ -70,7 +70,7 @@
           padding: 5% 0 5%;
           background: url(../images/forest.webp);
           background-size: cover;
-          margin-bottom: 5%;
+          margin-bottom: 100px;
         }
         .flex-introduction-innercontainer {
             display: flex;
