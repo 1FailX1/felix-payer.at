@@ -47,7 +47,7 @@
             </div>
         </div>
 
-        <div class="service-container" id="services" style="text-align: center">
+        <div class="service-container" id="services" style="text-align: center; overflow-x:visible">
                 <h1>Services</h1>
                 <p class="big-text">Eine Liste meiner Services</p>
                 <hr class="horizontal-line-01">
