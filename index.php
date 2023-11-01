@@ -3,12 +3,13 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <meta name="description" content="Ich bin Felix Payer: Website Designer, Content Creator, Gaming Coach und Programmierer. Sehen Sie sich meine Website an, um mehr über meine Services zu lernen!">
     <meta name="keywords" content="Felix Payer, Payer, Webdevelopment, Content Creation, Gaming Coach">
 
     <title>Felix Payer</title>
     <link rel="stylesheet" type="text/css" href="CSS/index_mobile_viewport.css">
+    <link rel="stylesheet" type="text/css" href="CSS/index_small_tablet_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_tablet_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_desktop_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_general.css">
@@ -23,12 +24,12 @@
     <div class="wrapper">
         <div class="header">
             <div class="header-subcontainer">
-                <a style="font-size: 40px; padding-right: 25px; padding-left: 10px; margin-right: auto" href="https://felix-payer.at/">felix-payer</a>
-                <a href="#services" style="padding: 25px">SERVICES</a>
-                <a href="#webdev" style="padding: 25px">WEB DEVELOPMENT</a>
-                <a href="#contentcreation" style="padding: 25px">CONTENT CREATION</a>
-                <a href="#coaching" style="padding: 25px">COACHING</a>
-                <a href="#contact" style="padding: 25px">KONTAKT</a>
+                <a href="https://felix-payer.at/" class="header-logo">felix-payer</a>
+                <a href="#services" class="header-links">SERVICES</a>
+                <a href="#webdev" class="header-links">WEB DEVELOPMENT</a>
+                <a href="#contentcreation" class="header-links">CONTENT CREATION</a>
+                <a href="#coaching" class="header-links">COACHING</a>
+                <a href="#contact" class="header-links">KONTAKT</a>
             </div>
         </div>
 
@@ -53,20 +54,20 @@
                 <div class="service-sub-container">
                     <a href="#webdev">
                         <div class="service-sub-element hidden-bottom-to-top">
-                            <img src="images/webdev_01.webp" style="width: 100%; height: auto" alt="Man in Smoking">
-                            <h3>Web Development</h3>
+                            <img src="images/webdev_01.webp" style="width: 100%; height: auto" alt="Web Development Cover Image">
+                            <h3 class="margin-top-10px">Web Development</h3>
                         </div>
                     </a>
                     <a href="#contentcreation">
                         <div class="service-sub-element hidden-bottom-to-top" style="transition-delay: 200ms;">
-                            <img src="images/contentcreation_01.webp" style="width: 100%; height: auto" alt="SEO symbol">
-                            <h3>Content Creation</h3>
+                            <img src="images/contentcreation_01.webp" style="width: 100%; height: auto" alt="Content Creation Cover Image">
+                            <h3 class="margin-top-10px">Content Creation</h3>
                         </div>
                     </a>
                     <a href="#coaching">
                         <div class="service-sub-element hidden-bottom-to-top" style="transition-delay: 400ms;">
-                            <img src="images/coaching_01.webp" style="width: 100%; height: auto" alt="Computer with code">
-                            <h3>Gaming Coaching</h3>
+                            <img src="images/coaching_01.webp" style="width: 100%; height: auto" alt="Gaming Coaching Cover Image">
+                            <h3 class="margin-top-10px">Gaming Coaching</h3>
                         </div>
                     </a> 
                 </div>
@@ -81,17 +82,17 @@
             <div class="service-sub-container">
                 <div class="service-sub-element hidden-left-to-right">
                     <img src="images/icons/man_in_smoking.png" alt="Man in Smoking">
-                    <h3>Seriöser Auftritt</h3>
+                    <h3 class="margin-top-10px">Seriöser Auftritt</h3>
                     <p>Ein professionelles Design Ihrer Marke schafft einen positiven ersten Eindruck bei potenziellen Kunden und verbessert die Stärke und Seriosität Ihrer Markenidentität.</p>
                 </div>
                 <div class="service-sub-element hidden-left-to-right" style="transition-delay: 200ms;">
                     <img src="images/icons/seo.png" alt="SEO symbol">
-                    <h3>SEO optimiert</h3>
+                    <h3 class="margin-top-10px">SEO optimiert</h3>
                     <p>Ich lege bei meinen Produkten großen Wert auf SEO (Search Engine Optimization), was für ein hohes Ranking ihres Web-Auftritts in Suchmaschinen sorgt.</p>
                 </div>
                 <div class="service-sub-element hidden-left-to-right" style="transition-delay: 400ms;">
                     <img src="images/icons/computer_with_code.png" alt="Computer with code">
-                    <h3>Moderne Technologien</h3>
+                    <h3 class="margin-top-10px">Moderne Technologien</h3>
                     <p>Meine Webseiten sind nicht mit Templating-Tools, wie Wordpress, sondern mit den besten CSS- und JS-Frameworks handgefertigt, um aus der Masse herauszustechen.</p>
                 </div> 
             </div>
@@ -106,17 +107,17 @@
             <div class="service-sub-container">
                 <div class="service-sub-element hidden-right-to-left" style="transition-delay: 400ms;">
                     <img src="images/icons/convinced.png" alt="Convinced Icon">
-                    <h3>Überzeugende Produkte</h3>
+                    <h3 class="margin-top-10px">Überzeugende Produkte</h3>
                     <p>Mein Content, den ich für Firmen, Privatpersonen und mich produziert habe, konnte bis dato nahezu eine Million Zuschauer erreichen.</p>
                 </div>
                 <div class="service-sub-element hidden-right-to-left" style="transition-delay: 200ms;">
                     <img src="images/icons/video.png" alt="Video symbol">
-                    <h3>Shortform Content</h3>
+                    <h3 class="margin-top-10px">Shortform Content</h3>
                     <p>Ich bin spezialisiert auf Shortform Content, wie Reels, Shorts und TikTok-Videos, da ich mich mit den Algorithmen dieser Plattformen ausgezeichnet auskenne.</p>
                 </div>
                 <div class="service-sub-element hidden-right-to-left">
                     <img src="images/icons/marketing.png" alt="Marketing Symbol">
-                    <h3>Modernes Marketing</h3>
+                    <h3 class="margin-top-10px">Modernes Marketing</h3>
                     <p>Heutzutage bewerben viele Unternehmen ihre Produkte, Podcasts und Kampanien erfolgreich mittels Shortform Content – so auch meine Partner, deren Videos ich produziere!</p>
                 </div> 
             </div>
@@ -131,17 +132,17 @@
             <div class="service-sub-container">
                 <div class="service-sub-element hidden-left-to-right">
                     <img src="images/icons/coach.png" alt="Coach Icon">
-                    <h3>Etablierter Coach</h3>
+                    <h3 class="margin-top-10px">Etablierter Coach</h3>
                     <p>Nahezu 100 zufriedenen Kunden untermauern meine Fähigkeit zu lehren. Durch Kunden aus der ganzen Welt durfte ich viele Ansichten kennenlernen.</p>
                 </div>
                 <div class="service-sub-element hidden-left-to-right" style="transition-delay: 200ms;">
                     <img src="images/icons/Client.png" alt="Client symbol">
-                    <h3>Wiederkehrende Kunden</h3>
+                    <h3 class="margin-top-10px">Wiederkehrende Kunden</h3>
                     <p>Meine Services haben eine hohe Anzahl an wiederkehrenden Kunden, welche durch rapide Resultate von meinem Coaching begeistert wurden.</p>
                 </div>
                 <div class="service-sub-element hidden-left-to-right" style="transition-delay: 400ms;">
                     <img src="images/icons/rating.png" alt="Rating Star Symbol">
-                    <h3>Hervorragende Bewertung</h3>
+                    <h3 class="margin-top-10px">Hervorragende Bewertung</h3>
                     <p>Von etwa 60 Bewertungen erhielten meine Dienste ein überzeugendes durchschnittliches Rating von 4.9 Sternen.</p>
                 </div> 
             </div>
@@ -173,7 +174,7 @@
                         </p>
                     </div>
                     <div style="text-align: right;">
-                        <input class="button" type="submit" value="Send"/>
+                        <input class="button" type="submit" value="Absenden"/>
                     </div>
                     <div>
                         <?php

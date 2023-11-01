@@ -44,12 +44,23 @@
       .green-text{
         color: #40C057;
       }
-
+      .margin-top-10px {
+        margin-top: 10px;
+      }
       .header {
         height: 90px;
         padding: 10px;
         margin: auto;
       }
+      .header-logo {
+        font-size: 40px; 
+        padding-right: 25px;
+        padding-left: 10px;
+        margin-right: auto;
+      }
+    .header-links {
+        padding: 25px
+    }
       .header-subcontainer {
         display: flex;
         flex-direction: row;
@@ -84,6 +95,9 @@
           max-width: 50%;
           padding: 10px;
       }
+      .wrapper{
+        overflow-x: hidden;
+      }
 
       .flex-introduction-image {
           margin: 0 auto;
@@ -102,7 +116,8 @@
         margin-right: auto;
         margin-left: auto;
         max-width: 1140px;
-        margin-bottom: 150px
+        margin-bottom: 150px;
+        overflow-x: hidden;
     }
     .service-sub-container {
         display: flex;

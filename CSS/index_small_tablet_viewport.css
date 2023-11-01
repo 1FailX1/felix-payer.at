@@ -1,5 +1,5 @@
-  /* CSS for screens between 930px and 1200 (tablets, landscape mode) */
-  @media (min-width: 930px) and (max-width: 1200px) {
+/* CSS for screens between 780px and 929px (small tablets) */
+@media (min-width: 780px) and (max-width: 929px){
     * {
         font-family: 'Montserrat', sans-serif;
     }
@@ -8,8 +8,8 @@
       scroll-behavior: smooth;
     }
     .wrapper{
-        overflow-x: hidden;
-      }
+      overflow-x: hidden;
+    }
 
     body {
         margin: 0;
@@ -48,8 +48,8 @@
       color: #40C057;
     }
     .margin-top-10px {
-        margin-top: 10px;
-      }
+      margin-top: 10px;
+    }
 
     .header {
       height: 50px;
@@ -61,9 +61,9 @@
         padding-right: 25px;
         padding-left: 10px;
         margin-right: auto;
-    }
-      .header-links {
-        padding: 25px
+      }
+    .header-links {
+        visibility: hidden;
     }
     .header-subcontainer {
       display: flex;
@@ -202,7 +202,7 @@
 
     .flex-contact-form-emailname {
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
         justify-content: space-between;
     }
 
@@ -291,4 +291,4 @@
       opacity: 1;
       transform: translateX(0);
     }
-  }
+}
