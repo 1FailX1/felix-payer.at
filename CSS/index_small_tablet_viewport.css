@@ -1,294 +1,113 @@
 /* CSS for screens between 780px and 929px (small tablets) */
-@media (min-width: 780px) and (max-width: 929px){
-    * {
-        font-family: 'Montserrat', sans-serif;
-    }
+@media (min-width: 780px) and (max-width: 929px) {
+  h1 {
+    font-family: 'Montserrat', sans-serif;
+    font-size: 47px;
+  }
 
-    html {
-      scroll-behavior: smooth;
-    }
-    .wrapper{
-      overflow-x: hidden;
-    }
+  .header {
+    height: 50px;
+    padding: 10px;
+    margin: auto;
+  }
 
-    body {
-        margin: 0;
-    }
+  .header-logo {
+    font-size: 28px;
+    padding-right: 25px;
+    padding-left: 10px;
+    margin-right: auto;
+  }
 
-    h1 {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 47px;
-    }
-    h2 {
-      font-size: 40px;
-    }
-    h3 {
-      font-size: 24px;
-    }
+  .header-links {
+    visibility: hidden;
+  }
 
-    .font-resizable-70px {
-        font-size: 70px;
-        margin: 0;
-        padding-bottom: 0;
-    }
+  .header-subcontainer {
+    display: flex;
+    flex-direction: row;
+    font-size: 12px;
+    font-weight: bold;
+    color: #000;
+    margin: auto;
+    max-width: 1140px;
+    height: 100%;
+    align-items: center;
+  }
 
-    p {
-        font-family: 'Montserrat', sans-serif;
-        font-size: 20px;
-    }
-    a {
-      color: #000;
-    }
+  .flex-introduction-wrapper {
+    color: white;
+    padding: 5% 10px 5%;
+    background: url(../images/forest.webp);
+    background-size: cover;
+    margin-bottom: 100px;
+  }
 
-    .big-text{
-      font-size: 28px;
-    }
+  .flex-introduction-innercontainer {
+    display: flex;
+    justify-content: space-evenly;
+    max-width: 1140px;
+    margin-right: auto;
+    margin-left: auto;
+  }
 
-    .green-text{
-      color: #40C057;
-    }
-    .margin-top-10px {
-      margin-top: 10px;
-    }
+  .flex-introduction-item {
+    max-width: 50%;
+    padding: 10px;
+  }
 
-    .header {
-      height: 50px;
-      padding: 10px;
-      margin: auto;
-    }
-    .header-logo {
-        font-size: 28px; 
-        padding-right: 25px;
-        padding-left: 10px;
-        margin-right: auto;
-      }
-    .header-links {
-        visibility: hidden;
-    }
-    .header-subcontainer {
-      display: flex;
-      flex-direction: row;
-      font-size: 12px;
-      font-weight: bold;
-      color:#000;
-      margin: auto;
-      max-width: 1140px;
-      height: 100%;
-      align-items: center;
-    }
-    .header-subcontainer > a {
-      text-decoration: none;
-    }
-    
-    .flex-introduction-wrapper {
-        color: white;
-        padding: 5% 10px 5%;
-        background: url(../images/forest.webp);
-        background-size: cover;
-        margin-bottom: 100px;
-      }
-      .flex-introduction-innercontainer {
-          display: flex;
-          justify-content: space-evenly;
-          max-width: 1140px;
-          margin-right: auto;
-          margin-left: auto;
-      }
 
-    .flex-introduction-item {
-        max-width: 50%;
-        padding: 10px;
-    }
-
-    .flex-introduction-image {
-        margin: 0 auto;
-        object-fit: cover; 
-        max-width: 300px; 
-        text-align: left;
-        align-self: center;
-    }
-    .flex-introduction-image > img {
-        width: 100%; 
-        border-radius: 3%;
-        border: 5px solid white;
-    }
 
   .service-container {
-      margin-right: auto;
-      margin-left: auto;
-      max-width: 1140px;
-      margin-bottom: 150px;
-      padding-left: 20px;
-      padding-right: 20px;
-      overflow-x: hidden;
+    margin-right: auto;
+    margin-left: auto;
+    max-width: 1140px;
+    margin-bottom: 150px;
+    padding-left: 20px;
+    padding-right: 20px;
+    overflow-x: hidden;
   }
+
   .service-sub-container {
-      display: flex;
-      flex-direction: row;
-      justify-content: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
   }
-  .service-sub-container > a {
+
+  .service-sub-container>a {
     width: 30%;
   }
+
   .service-sub-element {
-      padding-left: 10px;
-      padding-right: 10px;
-  }
-  .service-sub-element > p {
-      font-size: 16px;
-      line-height: 1.6;
+    padding-left: 10px;
+    padding-right: 10px;
   }
 
-  .horizontal-line-01 {
-      border: 3px solid rgb(194, 194, 194);
-      border-radius: 4px;
-      width: 250px;
-      margin-bottom: 50px;
+  .service-sub-element>p {
+    font-size: 16px;
+    line-height: 1.6;
+  }
+  .flex-contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin-left: auto;
+    margin-right: auto;
+    max-width: 1140px;
+    margin-bottom: 100px;
+    padding-left: 20px;
+    padding-right: 20px;
   }
 
-
-    .flex-reviews {
-        display: flex;
-        justify-content: space-between;
-        margin-bottom: 100px;
-        padding-left: 20%;
-        padding-right: 20%;
-    }
-
-    .flex-reviews-left {
-        display: flex;
-        max-width: 60%;
-        justify-content: space-between;
-    }
-
-    .flex-reviews-left-item {
-        flex-direction: column;
-    }
-
-    .flex-reviews-fiverr-image {
-        max-width: 35%;
-        margin: 0 auto;
-    }
-
-    .flex-reviews-youtube-image {
-        max-width: 35%;
-        margin: 0 auto;
-    }
-
-    .flex-reviews-right {
-        width: 40%;
-    }
-
-    .flex-contact {
-        display: flex;
-        flex-direction: row;
-        justify-content: space-between;
-        margin-left: auto;
-        margin-right: auto;
-        max-width: 1140px;
-        margin-bottom: 100px;
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .flex-contact-left {
-        width: 50%;
-        padding-right: 20px;
-    }
-
-    .flex-contact-right {
-        width: 50%;
-    }
-
-    .flex-contact-form-emailname {
-        display: flex;
-        flex-direction: column;
-        justify-content: space-between;
-    }
-
-
-    .footer {
-      background-color: #202020;
-      color: #fff;
-      display:flex;
-      flex-direction: row;
-      padding: 15px 5%;
-    }
-    .footer > p {
-      margin: 0;
-      font-size: 14px;
-    }
-    .footer p:last-child {
-      margin-left: auto;
-    }
-
-
-    .button {
-        padding: 15px;
-        background: #99C5BE;
-        border-radius: 8px;
-        color: #111827;
-        border: 2px solid #99C5BE
-    }
-
-    /*Fade in transitions*/
-
-  .hidden-bottom-to-top:nth-child(2){
-      transition-delay: 200ms;
-  }
-  .hidden-bottom-to-top:nth-child(3){
-      transition-delay: 400ms;
+  .flex-contact-left {
+    width: 90%;
   }
 
-    .hidden {
-      opacity: 0;
-      filter: blur(5px);
-      transform: translateX(-5%);
-      transition: all 1s;
-    }
+  .flex-contact-right {
+    width: 90%;
+  }
 
-    .show {
-      opacity: 1;
-      filter:blur(0);
-      transform: translateX(0);
-    }
-
-    .hidden-bottom-to-top{
-      opacity: 0;
-      filter: blur(5px);
-      transform: translateY(+15%);
-      transition: all 500ms;
-    }
-    .show-bottom-to-top {
-      opacity: 1;
-      filter:blur(0);
-      transform: translateY(0);
-    }
-    .hidden-top-to-bottom{
-      opacity: 0;
-      transform: translateY(-25%);
-      transition: all 1000ms;
-    }
-    .show-top-to-bottom {
-      opacity: 1;
-      transform: translateY(0);
-    }
-    .hidden-left-to-right{
-      opacity: 0;
-      transform: translatex(-50%);
-      transition: all 1000ms;
-    }
-    .show-left-to-right {
-      opacity: 1;
-      transform: translateX(0);
-    }
-    .hidden-right-to-left{
-      opacity: 0;
-      transform: translatex(+50%);
-      transition: all 1000ms;
-    }
-    .show-right-to-left {
-      opacity: 1;
-      transform: translateX(0);
-    }
+  .flex-contact-form-emailname {
+    display: flex;
+    flex-direction: column;
+  }
 }

@@ -38,7 +38,7 @@
             <div class="flex-introduction-innercontainer"> 
                 <div class="flex-introduction-item hidden">
                     <h1>Ich bin Felix Payer</h1>
-                    <p>Ich bin Felix Payer, ein Web-Designer, Content Creator und Gaming Coach. Ich habe bereits mit unzähligen Einzelpersonen, als auch Unternehmen gearbeitet. <br><br> Ich lehre mein Wissen gerne mittels 1-on-1 Coachings und Video Tutorials. Mit über fünf Jahren intensiver Erfahrung habe ich viele zufriedene Kunden angesammelt.
+                    <p>Ich bin Felix Payer, ein Web-Designer, Content Creator und Gaming Coach. Ich habe bereits mit unzähligen Einzelpersonen, als auch Unternehmen, gearbeitet. <br><br> Ich lehre mein Wissen gerne mittels 1-on-1 Coachings und Video Tutorials. Mit über fünf Jahren extensiver Erfahrung habe ich viele zufriedene Kunden angesammelt.
                     </p>
                 </div>
                 <div class="flex-introduction-image">
@@ -55,19 +55,19 @@
                     <a href="#webdev">
                         <div class="service-sub-element hidden-bottom-to-top">
                             <img src="images/webdev_01.webp" style="width: 100%; height: auto" alt="Web Development Cover Image">
-                            <h3 class="margin-top-10px">Web Development</h3>
+                            <h2 class="margin-top-10px" style="font-size: 24px">Web Development</h2>
                         </div>
                     </a>
                     <a href="#contentcreation">
                         <div class="service-sub-element hidden-bottom-to-top" style="transition-delay: 200ms;">
                             <img src="images/contentcreation_01.webp" style="width: 100%; height: auto" alt="Content Creation Cover Image">
-                            <h3 class="margin-top-10px">Content Creation</h3>
+                            <h2 class="margin-top-10px" style="font-size: 24px">Content Creation</h2>
                         </div>
                     </a>
                     <a href="#coaching">
                         <div class="service-sub-element hidden-bottom-to-top" style="transition-delay: 400ms;">
                             <img src="images/coaching_01.webp" style="width: 100%; height: auto" alt="Gaming Coaching Cover Image">
-                            <h3 class="margin-top-10px">Gaming Coaching</h3>
+                            <h2 class="margin-top-10px" style="font-size: 24px">Gaming Coaching</h2>
                         </div>
                     </a> 
                 </div>

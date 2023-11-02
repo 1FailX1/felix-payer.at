@@ -1,7 +1,7 @@
 const observer = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
             entry.target.classList.add('show');
         }
     });
@@ -16,7 +16,7 @@ hiddenElements.forEach((el) => observer.observe(el));
 const observer_bottom_to_top = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
             entry.target.classList.add('show-bottom-to-top');
         }
     });
@@ -31,7 +31,7 @@ hiddenElements_bottom_to_top.forEach((el) => observer_bottom_to_top.observe(el))
 const observer_top_to_bottom = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
             entry.target.classList.add('show-top-to-bottom');
         }
     });
@@ -46,7 +46,7 @@ hiddenElements_top_to_bottom.forEach((el) => observer_top_to_bottom.observe(el))
 const observer_left_to_right = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
             entry.target.classList.add('show-left-to-right');
         }
     });
@@ -61,7 +61,7 @@ hiddenElements_left_to_right.forEach((el) => observer_left_to_right.observe(el))
 const observer_right_to_left = new IntersectionObserver((entries) => {
     entries.forEach((entry) => {
         console.log(entry)
-        if(entry.isIntersecting) {
+        if (entry.isIntersecting) {
             entry.target.classList.add('show-right-to-left');
         }
     });
