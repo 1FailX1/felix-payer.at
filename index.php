@@ -13,10 +13,13 @@
     <link rel="stylesheet" type="text/css" href="CSS/index_tablet_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_desktop_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_general.css">
+    <link rel="icon" type="image/png" sizes="16x16" rel="noopener" target="_blank" href="/favicon_16x16.png">
+    <link rel="icon" type="image/png" sizes="32x32" rel="noopener" target="_blank" href="/favicon_32x32.png">
+    <link rel="icon" type="image/png" sizes="64x64" rel="noopener" target="_blank" href="/favicon_64x64.png">
+    <link rel="icon" type="image/png" sizes="128x128" rel="noopener" target="_blank" href="/favicon_128x128.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
+    <link defer href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;700&display=swap" rel="stylesheet">
     <script defer src="index.js"></script>
 </head>
 
@@ -24,6 +27,7 @@
     <div class="wrapper">
         <div class="header">
             <div class="header-subcontainer">
+                <img style="height: 80%; padding-right: 10px" src="favicon.ico" alt="Felix Payer Logo">
                 <a href="https://felix-payer.at/" class="header-logo">felix-payer</a>
                 <a href="#services" class="header-links">SERVICES</a>
                 <a href="#webdev" class="header-links">WEB DEVELOPMENT</a>

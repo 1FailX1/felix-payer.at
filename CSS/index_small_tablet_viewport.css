@@ -1,5 +1,5 @@
-/* CSS for screens between 780px and 929px (small tablets) */
-@media (min-width: 780px) and (max-width: 929px) {
+/* CSS for screens between 780px and 959px (small tablets) */
+@media (min-width: 780px) and (max-width: 979px) {
   h1 {
     font-family: 'Montserrat', sans-serif;
     font-size: 47px;

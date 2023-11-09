@@ -1,5 +1,5 @@
-  /* CSS for screens between 930px and 1200 (tablets, landscape mode) */
-  @media (min-width: 930px) and (max-width: 1200px) {
+  /* CSS for screens between 960px and 1200 (tablets, landscape mode) */
+  @media (min-width: 980px) and (max-width: 1200px) {
     h1 {
       font-family: 'Montserrat', sans-serif;
       font-size: 47px;
