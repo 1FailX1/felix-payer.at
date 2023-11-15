@@ -51,7 +51,7 @@
             <div class="flex-introduction-innercontainer"> 
                 <div class="flex-introduction-item hidden">
                     <h1>Ich bin Felix Payer</h1>
-                    <p>Ich bin Felix Payer, ein Web-Designer, Content Creator und Gaming Coach. Ich habe bereits mit unzähligen Einzelpersonen, als auch Unternehmen, gearbeitet. <br><br> Ich lehre mein Wissen gerne mittels 1-on-1 Coachings und Video Tutorials. Mit über fünf Jahren extensiver Erfahrung habe ich viele zufriedene Kunden angesammelt.
+                    <p>Ich bin Felix Payer, ein Web-Designer, Content Creator und Gaming Coach aus Wien, Österreich. Ich habe bereits mit unzähligen Einzelpersonen, als auch Unternehmen, gearbeitet. <br><br> Ich lehre mein Wissen gerne mittels 1-on-1 Coachings und Video Tutorials. Mit über fünf Jahren extensiver Erfahrung habe ich viele zufriedene Kunden angesammelt.
                     </p>
                 </div>
                 <div class="flex-introduction-image">
