@@ -2,11 +2,20 @@
 <html lang="de">
 
 <head>
+    <!-- Open Graph Meta Tags -->
+    <meta property="og:title" content="Felix Payer">
+    <meta property="og:description" content="Wien, Österreich · Website Design · Content Creation · Coach">
+    <meta property="og:locale" content="de_AT">
+    <meta property="og:type" content="profile">
+    <meta property="og:location" content="Vienna, Austria">
+
+    <!-- Other Meta Tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, minimum-scale=1">
     <meta name="description" content="Ich bin Felix Payer: Website Designer, Content Creator, Gaming Coach und Programmierer. Sehen Sie sich meine Website an, um mehr über meine Services zu lernen!">
     <meta name="keywords" content="Felix Payer, Payer, Webdevelopment, Content Creation, Gaming Coach">
 
+    <!-- All links and scripts-->
     <title>Felix Payer</title>
     <link rel="stylesheet" type="text/css" href="CSS/index_mobile_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_small_tablet_viewport.css">
