@@ -16,7 +16,7 @@
     <meta name="keywords" content="Felix Payer, Payer, Webdevelopment, Content Creation, Gaming Coach">
 
     <!-- All links and scripts-->
-    <title>Felix Payer</title>
+    <title>Felix Payer - Ihr Website Designer und Content Creator</title>
     <link rel="stylesheet" type="text/css" href="CSS/index_mobile_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_small_tablet_viewport.css">
     <link rel="stylesheet" type="text/css" href="CSS/index_tablet_viewport.css">
