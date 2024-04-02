@@ -183,7 +183,7 @@
                     <div>
                         <p>Nachricht
                             <textarea name="Message"
-                                style="margin-top:5px; padding:10px; width:100%; height: 200px; border-radius:8px;background-color:rgba(0,0,0,0.07);color:#111827; border:none"></textarea>
+                                style="margin-top:5px; padding:10px; width:100%; height: 200px; border-radius:8px;background-color:rgba(0,0,0,0.07);color:#111827; border:none; resize: none;"></textarea>
                         </p>
                     </div>
                     <div style="text-align: right;">
@@ -262,7 +262,7 @@
         </form>
 
         <div class="footer">
-            <p>Website by Felix Payer 2023 ©</p>
+            <p>Website by Felix Payer 2024 ©</p>
             <p>Icons from <a style="color: #fff;" target="_blank" href="https://icons8.com">Icons8</a></p>
         </div>
     </div>
